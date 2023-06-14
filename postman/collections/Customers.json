@@ -12,6 +12,20 @@
 			"item": [
 				{
 					"name": "Get all users",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "7fb8263f-2b87-495a-9b45-7e1a28b8c6a8",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "d728b7da-f671-452c-b034-178bdbad5b67",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
