@@ -4,7 +4,7 @@ security:
 info:
   title: Customers
   description: >-
-    API for creating and managing banking customers. Manages `Users`,
+    API for creating and managing banking customers. Manages `Users`, Hello world
     `Accounts`, etc.
   version: 1.0.0
   contact:
